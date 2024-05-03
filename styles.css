@@ -27,6 +27,9 @@
     grid-template-rows: 1fr 4fr;
     grid-gap:20px;
 
+    justify-items: stretch;
+    align-items: stretch;
+
     grid-template-areas: 
         "article header header"
         "article main main"
